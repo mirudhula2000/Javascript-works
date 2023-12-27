@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul >
+        <li  onClick="handleDelete(event)" >jam</li>
+        <li  onClick="handleDelete(event)">patty</li>
+        <li  onClick="handleDelete(event)">sauce</li>
+        <li  onClick="handleDelete(event)">pancakes</li>
+        <li  onClick="handleDelete(event)">blueberry</li>
+    </ul>
+    
+    <script>
+       
+       const handleDelete=(event)=>{
+        event.target.remove();
+       }
+    </script>
+
+</body>
+</html>

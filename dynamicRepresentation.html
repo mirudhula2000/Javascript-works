@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- <body>
+    <h1 id="result"></h1>
+    <button  id="btn1" onclick="change()">JOhn</button>
+    <button id="btn2" onClick="change1()">Hari</button>
+    <script>
+        const change=()=>{
+    var button=document.getElementById("btn1")
+    
+var heading=document.getElementById("result");
+heading.textContent=button.textContent;
+}
+const change1=()=>{
+    var button2=document.getElementById("btn2")
+var heading=document.getElementById("result");
+heading.textContent=button2.textContent;
+}
+    </script>
+</body> -->
+  <body>
+    <h1 id="result"></h1>
+    <button id="btn" onClick="update(event)">John</button>
+    <button id="btn" onClick="update(event)">hari</button>
+    <script>
+      var h1 = document.getElementById("result");
+      var btn = document.getElementById("btn");
+      const update = (event) => {
+        h1.textContent = event.target.textContent;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="change()">Add Hello</button>
+    <h1 id="result"></h1>
+    <script>
+        const change=()=>{
+            var update=document.getElementById("result");
+            var h2=document.createElement("h2");
+            h2.textContent="hello"
+            update.append(h2);
+        
+        }
+    </script>
+</body>
+</html>
